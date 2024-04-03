@@ -1,0 +1,43 @@
+.hover:hover{
+  background-color: rgb(51, 134, 206);
+  cursor: pointer;
+}
+.hover {
+  padding-top: 12px;
+}
+.card-layout {
+  display:flex; 
+  align-items:center; 
+  /* justify-content:space-between; */
+  padding:20px;
+  padding-bottom:0px;
+  padding-top:0px;
+}
+.card {
+  background-color:whiteSmoke;
+  height:100px;
+  display:flex;
+  align-items:center;
+  justify-content:space-evenly;
+  border-radius:10px;
+}
+
+
+
+@media (max-width: 600px) {
+  /* CSS rules to apply when screen width is less than 600px */
+  
+.card {
+  padding-top:'100px';
+}
+}
+
+.css-9fc0yf-MuiGrid-root {
+  justify-content: space-around;
+}
+.css-fkfu97-MuiGrid-root {
+  justify-content: center;
+}
+.css-k9jfdx-MuiGrid-root {
+  margin-top:10px;
+}
